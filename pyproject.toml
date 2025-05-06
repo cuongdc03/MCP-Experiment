@@ -1,4 +1,23 @@
-[tool.ruff]
-line-length = 100
-ignore = ["D203"]
-show-source = true
+[project]
+name = "mcp-experiment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arxiv>=2.2.0",
+    "browser-use>=0.1.45",
+    "fastmcp>=2.2.8",
+    "langchain-mcp-adapters>=0.0.3",
+    "langgraph>=0.4.1",
+    "llama-index>=0.12.34",
+    "llama-index-llms-langchain>=0.6.1",
+    "llama-index-llms-ollama>=0.5.4",
+    "llama-index-tools-mcp>=0.1.2",
+    "mcp-use>=1.2.8",
+    "mcp[cli]>=1.7.1",
+    "smolagents>=1.14.0",
+]
+
+[tool.uv.workspace]
+members = ["mcp_experiment"]
