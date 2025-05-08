@@ -2,7 +2,7 @@ from fastmcp import FastMCP
 import arxiv
 
 # ============================================================
-mcp = FastMCP("OnBase", port=3000)
+mcp = FastMCP("arXiv", port=3000)
 client = arxiv.Client()
 
 

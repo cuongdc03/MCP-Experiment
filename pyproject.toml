@@ -17,6 +17,7 @@ dependencies = [
     "mcp-use>=1.2.8",
     "mcp[cli]>=1.7.1",
     "smolagents>=1.14.0",
+    "tavily-python>=0.7.2",
 ]
 
 [tool.uv.workspace]
